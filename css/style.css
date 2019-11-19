@@ -8,57 +8,60 @@ body {
 }
 
 .conteiner {
-  margin: 3%;
+  margin: 2%;
 }
 .header {
   position: relative;
+  background-image: url(../img/natural-header.jpg);
+  background-position: center;
   height: 50vh;
-  background: red;
   margin: 3%;
 }
-
-
-.navbar {
-  position: absolute;
-  background-color: purple;
-  width: 100%;
+.navbar nav ul {
+  text-align: center;
+  line-height: 10px;
 }
 
+.box-list {
+  position: relative;
+  text-align: center;
+  background: yellow;
+  margin: 1%;
+  width: 30px;
+  display: inline-block;
+  list-style: none;
+  line-height: 20px;
+  background-position: center;
+}
 .mainbox {
   margin: 2%;
 }
-
 .mainbox::after {
   content: '';
   display: table;
   clear: both;
 }
-
-
-
-.box {
+.col {
   float: left;
-}
 
+}
 .sx {
-  width: 25%;
+  width: 20%;
   background: grey;
   margin: 10px;
 }
 
 .ch {
-  width: 43%;
+  width: 40%;
   background: orange;
   margin: 10px;
 }
 
 .dx {
-  width: 25%;
+  width: 20%;
   background: pink;
   margin: 10px;
 }
-
-
 .widget {
   margin: 5%;
 }
