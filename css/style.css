@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: beige;
+}
+
+.conteiner {
+  margin: 3%;
+}
+.header {
+  position: relative;
+  height: 50vh;
+  background: red;
+  margin: 3%;
+}
+
+
+.navbar {
+  position: absolute;
+  background-color: purple;
+  width: 100%;
+}
+
+.mainbox {
+  margin: 2%;
+}
+
+.mainbox::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+.box {
+  float: left;
+}
+
+.sx {
+  width: 25%;
+  background: grey;
+  margin: 10px;
+}
+
+.ch {
+  width: 43%;
+  background: orange;
+  margin: 10px;
+}
+
+.dx {
+  width: 25%;
+  background: pink;
+  margin: 10px;
+}
+
+
+.widget {
+  margin: 5%;
+}
+
+.footer {
+  height: 100px;
+  background: blue;
+}
