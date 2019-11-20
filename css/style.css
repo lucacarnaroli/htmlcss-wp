@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -21,18 +21,19 @@ body {
 }
 /* logo */
 .logo1 {
-  position: absolute;
   text-align: center;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
 .logo1 img {
-  height: 15  0px;
+  height: 150px;
 }
 .logo1 h1 {
   font-size: 20px;
+  text-transform: uppercase;
 }
 /* navbar */
 .navbar nav ul {
@@ -78,7 +79,7 @@ color: #C8C6C5;
 /* colonna sx */
 .sx {
   width: 20%;
-  margin: 10px 0px;
+  margin: 10px 0%;
   border-radius: 8px;
   background-color: white;
 }
@@ -93,14 +94,21 @@ color: #C8C6C5;
   list-style: none;
   margin: 10px;
   margin-bottom: 15px;
+  float: left;
 }
-.header3 i, span {
-  margin: auto;
+.header3 p {
+  width: 35px;
+}
+
+.header3 i, p {
+  display: inline-block;
+  float: left;
+  margin: 3px;
 }
 .header3 i {
-  margin-right: 3px;
   font-size: 25px;
   color: orange;
+  margin-left: 3px;
 }
 /* colonna ch */
 .ch {
